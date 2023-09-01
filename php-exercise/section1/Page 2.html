@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+            
+    <head>       
+        <meta charset="utf-8">
+        <meta name="author" content="learn.expandedmetrics.com">
+        <meta name="description" content=" ">
+        <meta name="keywords" content=" ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+        <title>D12.E1 · Multipage PHP website</title>
+
+        <!-- Socials -->
+        <meta property="og:title" content=" " />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content=" " />
+        <meta property="og:image" content="assets/ .jpg" />
+        <meta property="og:url" content=" .com" />
+        <meta name="twitter:title" content=" ">
+        <meta name="twitter:description" content=" ">
+        <meta name="twitter:image" content="assets/ .jpg">
+        <meta name="twitter:card" content="assets/ .jpg">
+
+        <!-- CSS -->
+        <link href="../assets/style.css" rel="stylesheet" type="text/css">
+                
+        <!--JavaScript -->
+        <script type="text/javascript" src="assets/script.js" defer></script> 
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/favicon.ico"> 
+
+    </head>       
+
+    <body>
+        
+        <header><a href="/">MULTIPAGE PHP WEBSITE</a></header>
+
+        <div class="content-wrap">
+        
+            <main>
+                <h1>Artem Kostyukevich</h1>
+                
+                <figure>
+                    <img src="../images/img1.jpg">
+                    <img src="../images/img2.jpg">                        
+                    <figcaption><em>From the book 'Shadows'</em></figcaption>
+                </figure>
+
+                <p>Velázquez had established his reputation in Seville by the early 1620s. He traveled to Madrid in April 1622, with letters of introduction to Don Juan de Fonseca, chaplain to the King. Velázquez was not allowed to paint the new king, Philip IV, but portrayed the poet Luis de Góngora at the request of Pacheco. The portrait showed Góngora crowned with a laurel wreath, which Velázquez later painted over. He returned to Seville in January 1623 and remained there until August.</p>
+                <p>In December 1622, Rodrigo de Villandrando, the king's favorite court painter, died. Velázquez received a command to come to the court from Gaspar de Guzmán, Count-Duke of Olivares, the powerful minister of Philip IV. He was offered 50 ducats (175 g of gold) to defray his expenses, and he was accompanied by his father-in-law. Fonseca lodged the young painter in his home and sat for a portrait, which, when completed, was conveyed to the royal palace.</p>
+
+            </main>
+        
+            <aside>
+
+                <nav>
+                    <p>POSTS:</p>
+                    <!-- section 1 menu-->
+                    <a class="sectiontitle" id="">Section 1</a>
+                    <ul>
+                        <li><a href="" id="">Artem Kostyukevich</a></li>
+                        <li><a href="">Page 2</a></li>
+                        <li><a href="">Page 3</a></li>
+
+                    </ul>
+                    
+                    <!-- section 2 menu-->
+                    <a class="sectiontitle">Section 2</a>
+                    <ul>
+                        <li><a href="">Page 1</a></li>
+                        <li><a href="">Page 2</a></li>
+                        <li><a href="">Page 3</a></li>
+                    </ul>         
+
+                    <a href="">About</a>
+
+                </nav>
+                <br>
+                <hr>
+                <p class="s">(This is an extra paragraph in the aside element)</p>
+            </aside>
+        </div>
+        
+        <footer><p class="s">Footer text comes here</p></footer>
+
+    </body>
+</html>
+
+
+
+<!-- REFERENCE PHP CODE: -->
+<!--
+Declare variables
+<?php $thisSection=""; ?>
+
+Echo function w. if statement
+<?php if ($thisPage!="") echo "$thisPage"; ?>
+
+Include function
+<?php include("php/something.php"); ?>
+
+Add an ID to an element dynamically
+<?php if ($thisPage=="Page One") echo " id=\"currentpage\""; ?>
+Add this as an attribute within an element
+
+Date
+<?php
+date_default_timezone_set('Asia/Kolkata');
+echo "" . date("Y") ;
+?>
+-->
